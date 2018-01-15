@@ -1,0 +1,17 @@
+body{background: #ebebeb;}
+.header .arrow_l {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_left.png) no-repeat;background-size: 0.45rem 0.9rem;float: left;}
+.header .profile_title{font-size: 0.8rem;font-weight: normal;width: 3.75rem;float: left;margin-left:7.05rem;}
+.content{padding:0.05rem 0.5rem 0 0.5rem;margin-top:1.9rem;}
+
+.or_nav{background: #fff;width: 17.75rem;height: 0.9rem;display: block;padding: 0.55rem 0.5rem;position:absolute;left:0;top:1.8rem;z-index: 5;}
+.or_nav a{font-size: 0.75rem;width: 25%;float: left;display: block;text-align: center;}
+.or_nav a:visited{color:#616161; }
+.content .wdxx{width: 17.75rem;height: 10.45rem;background: url(../images/person/person_1/order_list.png)no-repeat bottom;background-size: 17.75rem 8.675rem;}
+.content .touxiang .tx_person{display:block;width: 3rem;height: 3rem;border: 0.025rem solid rgba(0, 0, 0,0);border-radius: 4rem;margin: 0 auto;overflow: hidden;}
+.content .touxiang img{width: 3rem;height: 3rem;}
+.content .nicname{font-size: 0.75rem;font-weight: normal;text-align: center;margin-bottom: 0.5rem;}
+.wdxx .wdxx_dt{width:auto;height:4.5rem;font-size: 0.75rem;margin-left:1.3rem; }
+.wdxx .wdxx_dt li{height: 1.5rem;line-height: 0.7rem;}
+.wdxx .or_num{font-size: 0.75rem;margin-left:4.45rem;}
+.wdxx{position: relative;margin-bottom: 0.5rem;}
+.wdxx .or_time{font-size: 0.6rem;color: #787878;position: absolute;left: 1.2rem;top:2.25rem;}

@@ -1,0 +1,22 @@
+body{background: #ebebeb;}
+.header .arrow_l {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_left.png) no-repeat;background-size: 0.45rem 0.9rem;float: left;}
+.header .profile_title{font-size: 0.8rem;font-weight: normal;width: 3.75rem;float: left;margin-left:7rem;}
+
+.content{width: 18.25rem;height: auto;padding:0.05rem 0.25rem 0 0.25rem; }
+.content .order_none{width: 17.75rem;height: 2.15rem;background: url(../images/person/person_1/order_det_1bg.png) no-repeat;background-size: 18.25rem 2.1rem;padding-left: 0.5rem;margin-bottom: 0.5rem;}
+.content .order_none .arrow_r {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_right.png) no-repeat;background-size: 0.45rem 0.9rem;float: right;margin:0.55rem 0.5rem 0.55rem 0; }
+.content .order_none .none_ti{font-size: 0.75rem;line-height: 2.15rem;}
+.content .order_num{width: 17.75rem;height: 3.8rem;background: url(../images/person/person_1/order_det_2bg.png) no-repeat;background-size: 18.25rem 4.35rem;padding-left: 0.5rem;margin-bottom: 0.5rem;padding-top:0.6rem; }
+.content .order_num p{line-height: 1.05rem;}
+.content .order_xx{width: 17.75rem;height:2rem;background: url(../images/person/person_1/order_det_3bg.png) no-repeat;background-size: 18.25rem 2rem;padding-left: 0.5rem;margin-bottom: 0.05rem;}
+.content .order_xx_det{width: 17.75rem;height:5.2rem;background: url(../images/person/person_1/order_det_4bg.png) no-repeat;background-size: 18.25rem 11.05rem;padding:0.4rem 0 0.4rem 0.5rem;}
+.content .order_xx_det p{line-height: 1rem;}
+.content p,h3{font-size:0.75rem;}
+.content h3{font-weight: normal;line-height: 2rem;}
+.content .order_fk{width: 17.75rem;height:5.05rem;background: url(../images/person/person_1/order_det_4bg.png) no-repeat 0 -6rem;background-size: 18.25rem 11.05rem;padding: 0.55rem 0 0.55rem 0.5rem;}
+.content .order_fk p{width:13rem;margin-left: 9.7rem;}
+.order_fk .fk_btn{display: block;width: 11rem;height: 1.95rem;margin-left: 6.65rem;margin-top:1rem;}
+.cancel_btn,.buy_btn{width: 4.95rem;height: 1.95rem;}
+.cancel_btn{border: 0.025rem solid #9c9c9c;border-radius: 0.2rem;background: #fff;color: #9c9c9c;float:left;}
+.buy_btn{border: 0.025rem solid #f64344;border-radius: 0.2rem;background: #f64344;color: #fff;float:left;margin-left: 0.625rem;}
+

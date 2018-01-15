@@ -1,0 +1,17 @@
+body{background: #ebebeb;}
+.header{margin-bottom: 0.05rem;}
+.header .arrow_l {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_left.png) no-repeat;background-size: 0.45rem 0.9rem;float: left;}
+.header .profile_title{font-size: 0.8rem;font-weight: normal;width: 3.75rem;float: left;margin-left:7.05rem;}
+.content .tixian_top{width: 18.1rem;height: 3rem;background: url(../images/person/person_1/tixian_bg.png) no-repeat;background-size: 18.75rem 5.75rem;padding:1.375rem 0 1.375rem 0.65rem; }
+.touxiang .tx_person{display:block;width: 3rem;height: 3rem;border: 0.025rem solid rgba(0, 0, 0,0);border-radius: 4rem;margin: 0 auto;overflow: hidden;float: left;}
+.touxiang img{width: 3rem;height: 3rem;}
+.tixian_top .tx_name{display:block;font-size: 0.9rem;margin-left: 4.15rem;margin-top: 0.55rem;}
+.tixian_top .tx_ed{font-size: 0.6rem;margin-left: 4.15rem;margin-bottom: 0.55rem;}
+
+.content .tixian_sq{width:18.25rem;height: 6.55rem;background:url(../images/person/person_1/tixian_list_bg.png) no-repeat;background-size:37.5rem 7.45rem;padding-top: 0.95rem; padding-left: 0.5rem;}
+.content .tixian_sq .txje{font-size: 0.7rem;font-weight: normal;}
+.content .tixian_sq .tx_num{display:block;font-size: 1.15rem;margin-left: 3.1rem;margin-top:0.65rem;}
+.content .tixian_sq .tip{font-size:0.7rem;color: #989898;margin: 1.95rem 0 0 0.5rem;;}
+.content .tixian_sj{width: 18.25rem;height: 6rem;background:url(../images/person/person_1/tixian_list_bg.png) no-repeat -18.75rem;background-size:37.5rem 7.45rem;padding-left: 0.5rem;padding-top: 1.5rem;}
+.content .tixian_sj .tx_tel{font-size: 0.8rem;}
+.content .tx_btn{width: 17.75rem;height: 2.05rem;background: #ffda57;border: 0.025rem solid #ffda57;border-radius: 0.2rem;margin-top: 2.35rem;}

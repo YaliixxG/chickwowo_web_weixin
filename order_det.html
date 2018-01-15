@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单详情</title>
+    <script>  
+        document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 18.75 + "px";  
+    </script>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/order_det.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a class="arrow_l" href="" id="det_back"></a>
+            <h3 class="profile_title">订单详情</h3>
+        </header>
+        <div class="content">
+            <div class="order_none">
+                <span class="none_ti">您的订单未付款</span>
+                <a class="arrow_r" href=""></a>
+            </div>
+            <div class="order_num">
+                <p>鸡窝窝富硒蛋（半年配送180枚 每月30枚） 包邮</p>
+                <p>应付款:
+                    <span>￥99</span>
+                </p>
+                <p>数量:
+                    <span>1</span>
+                </p>
+            </div>
+            <div class="order_xx">
+                <h3>订单信息</h3>
+            </div>
+            <div class="order_xx_det">
+                <p>订单编号:
+                    <span>1513128452139</span>
+                </p>
+                <p>订单金额:
+                    <span>￥99</span>
+                </p>
+                <p>下单时间:
+                    <span>2017/12/13
+                        <span>09:23:12.0</span>
+                    </span>
+                </p>
+                <p>付款时间:</p>
+                <p>订单状态:
+                    <span>未付款</span>
+                </p>
+            </div>
+            <div class="order_fk">
+                <p>共
+                    <span>1</span>件 &nbsp; 应付总额:
+                    <span>￥99</span>
+                </p>
+                <span class="fk_btn">
+                    <button class="cancel_btn">取消订单</button>
+                    <button class="buy_btn">立即付款</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var det_back = document.getElementById('det_back');
+        det_back.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.history.back()
+        }, false)
+    </script>
+</body>
+
+</html>

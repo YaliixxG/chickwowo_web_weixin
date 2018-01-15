@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提现</title>
+    <script>  
+        document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 18.75 + "px";  
+    </script>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/tixian.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a class="arrow_l" href="" id="to_tixian"></a>
+            <h3 class="profile_title">提现</h3>
+        </header>
+        <div class="content">
+            <div class="tixian_top">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <span class="tx_name">Rain时欢</span>
+                <p class="tx_ed">佣金额度：
+                    <span>1299元</span>
+                </p>
+            </div>
+            <div class="tixian_sq">
+                <h3 class="txje">提现金额</h3>
+                <span class="tx_num">1200</span>
+                <p class="tip">温馨提示：首次提现需达1元</p>
+
+            </div>
+            <div class="tixian_sj">
+                <p class="tx_tel">手机号：
+                    <span>18597941105</span>
+                </p>
+                <button class="tx_btn">申请提现</button>
+            </div>
+
+
+        </div>
+    </div>
+ <script>
+  var to_tixian = document.getElementById('to_tixian');
+  to_tixian.addEventListener('touchstart', function (e) {
+    e.preventDefault();
+    window.history.back()
+}, false)
+ </script>
+    
+</body>
+
+</html>

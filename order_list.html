@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单列表</title>
+    <script>  
+        document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 18.75 + "px";  
+    </script>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/order_list.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header" id="spHeader">
+            <a class="arrow_l" id="arr_orderLIST" href=""></a>
+            <h3 class="profile_title">订单列表</h3>
+        </header>
+        <nav class="or_nav">
+            <a class="to_order_det"href="">全部订单</a>
+            <a href="">待支付</a>
+            <a class="to_order_det" href="">待发货</a>
+            <a class="to_order_det" href="">待签收</a>
+        </nav>
+
+
+        <div class="content">
+            <div class="wdxx">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <span class="or_time">2017/12/13
+                    <span>09:23:12</span>
+                </span>
+                <h3 class="nicname">raindrop</h3>
+                <ul class="wdxx_dt">
+                    <li>鸡窝窝富硒蛋（半年配送180枚 每月30枚） 包邮</li>
+                    <li>应付款:
+                        <span>￥99</span>
+                    </li>
+                    <li>数量:
+                        <span>1（未付款）</span>
+                    </li>
+                </ul>
+                <p class="or_num">订单号
+                    <span>1513128452139</span>
+                </p>
+            </div>
+            <div class="wdxx">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <span class="or_time">2017/12/13
+                    <span>09:23:12</span>
+                </span>
+                <h3 class="nicname">raindrop</h3>
+                <ul class="wdxx_dt">
+                    <li>鸡窝窝富硒蛋（半年配送180枚 每月30枚） 包邮</li>
+                    <li>应付款:
+                        <span>￥99</span>
+                    </li>
+                    <li>数量:
+                        <span>1（未付款）</span>
+                    </li>
+                </ul>
+                <p class="or_num">订单号
+                    <span>1513128452139</span>
+                </p>
+            </div>
+            <div class="wdxx">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <span class="or_time">2017/12/13
+                    <span>09:23:12</span>
+                </span>
+                <h3 class="nicname">raindrop</h3>
+                <ul class="wdxx_dt">
+                    <li>鸡窝窝富硒蛋（半年配送180枚 每月30枚） 包邮</li>
+                    <li>应付款:
+                        <span>￥99</span>
+                    </li>
+                    <li>数量:
+                        <span>1（未付款）</span>
+                    </li>
+                </ul>
+                <p class="or_num">订单号
+                    <span>1513128452139</span>
+                </p>
+            </div>
+            <div class="wdxx">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <span class="or_time">2017/12/13
+                    <span>09:23:12</span>
+                </span>
+                <h3 class="nicname">raindrop</h3>
+                <ul class="wdxx_dt">
+                    <li>鸡窝窝富硒蛋（半年配送180枚 每月30枚） 包邮</li>
+                    <li>应付款:
+                        <span>￥99</span>
+                    </li>
+                    <li>数量:
+                        <span>1（未付款）</span>
+                    </li>
+                </ul>
+                <p class="or_num">订单号
+                    <span>1513128452139</span>
+                </p>
+            </div>
+            <div class="wdxx">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <span class="or_time">2017/12/13
+                    <span>09:23:12</span>
+                </span>
+                <h3 class="nicname">raindrop</h3>
+                <ul class="wdxx_dt">
+                    <li>鸡窝窝富硒蛋（半年配送180枚 每月30枚） 包邮</li>
+                    <li>应付款:
+                        <span>￥99</span>
+                    </li>
+                    <li>数量:
+                        <span>1（未付款）</span>
+                    </li>
+                </ul>
+                <p class="or_num">订单号
+                    <span>1513128452139</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+            var arr_orderLIST = document.getElementById('arr_orderLIST');
+            var to_order_det = document.getElementsByClassName('to_order_det');
+            arr_orderLIST.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.history.back()
+        }, false)
+         for (let i = 0; i < 3; i++) {           
+            to_order_det[i].addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.location.href = "order_det.html"
+        }, false)
+             
+         }
+    
+    </script>
+</body>
+
+</html>

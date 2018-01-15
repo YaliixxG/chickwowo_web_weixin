@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>财务明细</title>
+    <script>  
+        document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 18.75 + "px";  
+    </script>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/cwmx.css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a class="arrow_l" id="arr_cwmx" href=""></a>
+            <h3 class="profile_title">财务明细</h3>
+        </header>
+        <div class="content">
+            <ul class="tx_list_ul">
+                <li class="tx_list_li">
+                    <p class="state">交易号：
+                        <span>1513128452139</span>
+                    </p>
+                    <p class="czr">操作人：
+                        <span>Rain时欢</span>
+                    </p>
+                    <p class="jjtx">奖金提现：
+                        <span>￥1200</span>
+                    </p>
+                    <span class="date">2017/12/23 &nbsp;
+                        <span class="time">09:27:12 &nbsp;
+                            <span class="out">支出</span>
+                        </span>
+                    </span>
+                </li>
+                <li class="tx_list_li">
+                    <p class="state">交易号：
+                        <span>1513128452139</span>
+                    </p>
+                    <p class="czr">操作人：
+                        <span>Rain时欢</span>
+                    </p>
+                    <p class="jjtx">奖金提现：
+                        <span>￥1200</span>
+                    </p>
+                    <span class="date">2017/12/23 &nbsp;
+                        <span class="time">09:27:12 &nbsp;
+                            <span class="out">支出</span>
+                        </span>
+                    </span>
+                </li>
+                <li class="tx_list_li">
+                    <p class="state">交易号：
+                        <span>1513128452139</span>
+                    </p>
+                    <p class="czr">操作人：
+                        <span>Rain时欢</span>
+                    </p>
+                    <p class="jjtx">奖金提现：
+                        <span>￥1200</span>
+                    </p>
+                    <span class="date">2017/12/23 &nbsp;
+                        <span class="time">09:27:12 &nbsp;
+                            <span class="out">支出</span>
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var arr_cwmx = document.getElementById('arr_cwmx');
+        arr_cwmx.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.history.back()
+        }, false)
+    </script>
+</body>
+
+</html>

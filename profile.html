@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的信息</title>
+    <script>  
+        document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 18.75 + "px";  
+    </script>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a class="arrow_l" href="" id="to_member"></a>
+            <h3 class="profile_title">我的信息</h3>
+        </header>
+        <div class="content">
+
+            <div class="wdxx">
+                <div class="touxiang">
+                    <a class="tx_person" href="">
+                        <img src="images/person/person_1/touxiang.jpg" alt="">
+                    </a>
+                </div>
+                <h3 class="nicname">raindrop</h3>
+                <ul class="wdxx_dt">
+                    <li>奖金：
+                        <span>1280</span>元</li>
+                    <li>介绍人：
+                        <span>江小白</span>
+                    </li>
+                    <li>编号：
+                        <span>3207429</span>
+                    </li>
+                </ul>
+                <button class="xxgl_btn">收获信息管理</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+            var to_member = document.getElementById('to_member');
+            to_member.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.history.back()
+        }, false)
+    
+    </script>
+</body>
+
+</html>

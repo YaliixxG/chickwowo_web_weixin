@@ -1,0 +1,47 @@
+body{background: #f9f9f9;}
+
+.content .banner{width:100%;height: 8.1rem;position: relative;overflow: hidden;}
+.banner .banner_area{width: 400%;overflow: hidden;}
+.banner .banner_area li{width: 25%;height: 8.1rem;float: left;}
+.banner .banner_img{width: 100%;height: 100%;}
+.banner .banner_mask{width: 100%;height: 0.425rem;position: absolute;left: 0;bottom: 0.125rem;}
+.banner_mask nav{position: absolute;left: 8.1rem;bottom:0;height: 100%;}
+.banner_mask nav a{width: 0.425rem;height:0.425rem;border-radius: 50%;margin-right: 0.3rem;background:#fff;opacity:0.3;display: block;float: left;}
+
+
+
+.content .indexlist{width:18.75rem;height:3.6rem;background:#fff;;padding:0.25rem 0 0.95rem 0;}
+.indexlist .list_detail{width: 100%;height: 100%;}
+.indexlist li{width:25%;height: 3.6rem;float: left;}
+.indexlist a{display:block;width:60%;height:2.75rem;background: url(../images/first/shouye_icon.png) no-repeat;background-size:4.45rem 15.075rem;margin: 0 auto;}
+.indexlist .a1{background: url(../images/first/shouye_icon.png) no-repeat;background-size:4.45rem 15.075rem;}
+.indexlist .a2{background: url(../images/first/shouye_icon.png) no-repeat 0 -3.62rem;background-size:4.45rem 15.075rem;}
+.indexlist .a3{background: url(../images/first/shouye_icon.png) no-repeat 0 -7.27rem;background-size:4.45rem 15.075rem;}
+.indexlist .a4{background: url(../images/first/shouye_icon.png) no-repeat 0 -10.915rem;background-size:4.45rem 15.075rem;}
+.indexlist span{display:block;font-size:0.55rem;text-align: center;}
+
+.content .product_list{width: 100%;padding-top: 0.25rem;background: #fff;}
+.product_list h3{font-size: 0.8rem;font-weight: normal;width: 100%;height:1.7rem;line-height: 1.7rem;text-indent: 0.45rem;}
+.product_list .pro_detail{width: 100%;height: auto;}
+.clear:after {content: "";display: block;height: 0;clear: both;}
+.clear {zoom: 1;}
+.pro_detail .detail_list{width: 100%;height: 4.05rem;border-top: 0.025rem solid #c8c8c8;line-height:1.1rem;padding:0.45rem 0 0.45rem 0.45rem;}
+
+/* 包邮类 */
+
+.baoyou{background: url(../images/first/baoyou.png) no-repeat;background-size: 18.75rem 4.95rem;}
+
+
+.pro_detail .img_list{width: 4rem;height: 4rem;float: left;}
+.pro_detail a,.pro_detail p,.pro_detail strong{width: 11rem;margin-left: 0.95rem;}
+.pro_detail a{display:block;font-size: 0.8rem;float: left;}
+
+.pro_detail a:link{color:#000000;}   
+.pro_detail a:active{color:#000000;}   
+.pro_detail a:visited{color: #000000;}   
+.pro_detail a:hover{color:#000000;} 
+
+.pro_detail p{font-size: 0.6rem;float: left;}
+.pro_detail strong{font-size:0.3rem;color:#f15c5a;float: left;}
+.pro_detail span{font-size:0.6rem;}
+.pro_detail small{font-size:0.75rem;width: 2.65rem;height: 0.9rem;background: #ffa400;display: inline-block;text-align: center;line-height: 0.9rem;color: #fff;border:0.025rem solid #ffa400;border-radius:0.2rem; }

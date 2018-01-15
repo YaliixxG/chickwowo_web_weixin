@@ -1,0 +1,30 @@
+body{background: #ebebeb;}
+.header .arrow_l {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_left.png) no-repeat;background-size: 0.45rem 0.9rem;float: left;}
+.header .profile_title{font-size: 0.8rem;font-weight: normal;width: 3.75rem;float: left;margin-left:7.05rem;}
+
+.content .touxiang{width: 100%;height:7.5rem;background: url(../images/person/person_1/person_bg.jpg) no-repeat;background-size:18.75rem 8.75rem; padding-top: 1.25rem; }
+.touxiang .tx_person{display:block;width: 4rem;height: 4rem;border: 0.025rem solid rgba(0, 0, 0,0);border-radius: 4rem;margin: 0 auto;overflow: hidden;}
+.touxiang img{width: 4rem;height: 4rem;}
+
+.content .my_xinxi{color: #adadad;font-size: 0.8rem;font-weight: normal;text-indent: 0.6rem;margin-top: 0.9rem;margin-bottom: 0.9rem;}
+
+.profile_list {width: 100%;height: auto;padding: 0 0.25rem;}
+.profile_list .prof_detail{width: 100%;height: auto;}
+.profile_list .det_list{width: 17.55rem;height:2rem;border: 0.025rem solid #fff;border-radius: 0.1rem;background: #fff;margin-bottom: 0.05rem;line-height: 2rem;padding-left: 0.35rem;padding-right: 0.35rem;}
+.prof_detail .det_list .det_1{font-size: 0.7rem;}
+.prof_detail .det_list .det_s1{color: #f00;}
+.prof_detail .det_list .det_s2{color: #ffa400;}
+.det_list .det_icon1,.det_list .det_icon2,.det_list .det_icon3,.det_list .det_icon4,.det_list .det_icon5,.det_list .det_icon6,.det_list .det_icon7,.det_list .det_icon8{display:block;width:1.35rem;height:1.35rem;float: left;}
+.prof_detail .det_list .det_icon1{background: url(../images/person/person_1/person_1_icon.png) no-repeat -0.35rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_p{height:1.4rem;padding-top:0.6rem;padding-bottom: 0.6rem;}
+.prof_detail .det_list .det_wz{display:block;width:auto;height:1.35rem;font-size: 0.7rem;margin-left: 0.5rem;line-height: 1.4rem;float:left;}
+.prof_detail .arrow_r {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_right.png) no-repeat;background-size: 0.45rem 0.9rem;float: right;margin:0.225rem 0.3rem 0 0; }
+.prof_detail .det_list .det_icon2{background: url(../images/person/person_1/person_1_icon.png) no-repeat -2.05rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_list .det_icon3{background: url(../images/person/person_1/person_1_icon.png) no-repeat -3.75rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_list .det_icon4{background: url(../images/person/person_1/person_1_icon.png) no-repeat -5.45rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_list .det_icon5{background: url(../images/person/person_1/person_2_icon.png) no-repeat -0.35rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_list .det_icon6{background: url(../images/person/person_1/person_2_icon.png) no-repeat -2.05rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_list .det_icon7{background: url(../images/person/person_1/person_2_icon.png) no-repeat -3.75rem -0.625rem; background-size: 7.15rem 2.6rem;}
+.prof_detail .det_list .det_icon8{background: url(../images/person/person_1/person_2_icon.png) no-repeat -5.45rem -0.625rem; background-size: 7.15rem 2.6rem;}
+
+.check{font-size: 0.6rem;color: #565656;margin-left:8.15rem;}

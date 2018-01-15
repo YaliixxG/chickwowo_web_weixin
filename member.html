@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员中心</title>
+    <script>  
+        document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth / 18.75 + "px";  
+    </script>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/member.css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a class="arrow_l" id="arr_member" href=""></a>
+            <h3 class="profile_title">会员中心</h3>
+        </header>
+        <div class="content">
+            <div class="touxiang">
+                <a class="tx_person" href="">
+                    <img src="images/person/person_1/touxiang.jpg" alt="">
+                </a>
+            </div>
+            <h3 class="my_xinxi">我的信息</h3>
+            <div class="profile_list">
+                <ul class="prof_detail">
+                    <li class="det_list">
+                        <span class="det_1">奖金：
+                            <span class="det_s1">0元</span>
+                    </li>
+                    <li class="det_list">
+                        <span class="det_1">窝窝鸡分：
+                            <span class="det_s2">0</span>
+                    </li>
+                    <li class="det_list det_p">
+                        <a class="det_icon1" href=""></a>
+                        <span class="det_wz">我要购买</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                    <li class="det_list det_p" id="to_profile">
+                        <a class="det_icon2" href=""></a>
+                        <span class="det_wz">我的信息</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                    <li class="det_list det_p">
+                        <a class="det_icon3" href=""></a>
+                        <span class="det_wz">我的二维码</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                    <li class="det_list det_p" id="to_orderlist">
+                        <a class="det_icon4" href=""></a>
+                        <span class="det_wz">订单管理<span class="check">查看所有订单</span></span>
+                        
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                    <li class="det_list det_p">
+                        <a class="det_icon5" href=""></a>
+                        <span class="det_wz">我的朋友圈</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+
+                </ul>
+            </div>
+            <h3 class="my_xinxi">财务信息</h3>
+            <div class="profile_list">
+                <ul class="prof_detail">
+                    <li class="det_list det_p" id="toTixian">
+                        <a class="det_icon6" href=""></a>
+                        <span class="det_wz">佣金提现</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                    <li class="det_list det_p" id="to_tixianlist">
+                        <a class="det_icon7" href=""></a>
+                        <span class="det_wz">提现列表</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                    <li class="det_list det_p" id="to_cwmx">
+                        <a class="det_icon8" href=""></a>
+                        <span class="det_wz">财务明细</span>
+                        <a class="arrow_r" href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+     var    arr_member = document.getElementById('arr_member');
+            arr_member.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.history.back()
+            }, false)
+    </script>
+</body>
+
+</html>
