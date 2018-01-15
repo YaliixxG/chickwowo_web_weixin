@@ -14,6 +14,7 @@ body{background: #ebebeb;}
 .prof_detail .det_list .det_1{font-size: 0.7rem;}
 .prof_detail .det_list .det_s1{color: #f00;}
 .prof_detail .det_list .det_s2{color: #ffa400;}
+.mem_link{display:block;width: 100%;height: 100%;}
 .det_list .det_icon1,.det_list .det_icon2,.det_list .det_icon3,.det_list .det_icon4,.det_list .det_icon5,.det_list .det_icon6,.det_list .det_icon7,.det_list .det_icon8{display:block;width:1.35rem;height:1.35rem;float: left;}
 .prof_detail .det_list .det_icon1{background: url(../images/person/person_1/person_1_icon.png) no-repeat -0.35rem -0.625rem; background-size: 7.15rem 2.6rem;}
 .prof_detail .det_p{height:1.4rem;padding-top:0.6rem;padding-bottom: 0.6rem;}
