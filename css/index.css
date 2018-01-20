@@ -36,10 +36,6 @@ body{background: #f9f9f9;}
 .pro_detail a,.pro_detail p,.pro_detail strong{width: 11rem;margin-left: 0.95rem;}
 .pro_detail a{display:block;font-size: 0.8rem;float: left;}
 
-.pro_detail a:link{color:#000000;}   
-.pro_detail a:active{color:#000000;}   
-.pro_detail a:visited{color: #000000;}   
-.pro_detail a:hover{color:#000000;} 
 
 .pro_detail p{font-size: 0.6rem;float: left;}
 .pro_detail strong{font-size:0.3rem;color:#f15c5a;float: left;}

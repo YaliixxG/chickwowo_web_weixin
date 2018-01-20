@@ -14,8 +14,8 @@ body{background: #ebebeb;}
 .content p,h3{font-size:0.75rem;}
 .content h3{font-weight: normal;line-height: 2rem;}
 .content .order_fk{width: 17.75rem;height:5.05rem;background: url(../images/person/person_1/order_det_4bg.png) no-repeat 0 -6rem;background-size: 18.25rem 11.05rem;padding: 0.55rem 0 0.55rem 0.5rem;}
-.content .order_fk p{width:13rem;margin-left: 9.7rem;}
-.order_fk .fk_btn{display: block;width: 11rem;height: 1.95rem;margin-left: 6.65rem;margin-top:1rem;}
+.content .order_fk p{width:17.5rem;text-align: right;float: left;margin-bottom:1rem;}
+.order_fk .fk_btn{display: block;width: 11rem;height: 1.95rem;margin-left: 6.65rem;}
 .cancel_btn,.buy_btn{width: 4.95rem;height: 1.95rem;}
 .cancel_btn{border: 0.025rem solid #9c9c9c;border-radius: 0.2rem;background: #fff;color: #9c9c9c;float:left;}
 .buy_btn{border: 0.025rem solid #f64344;border-radius: 0.2rem;background: #f64344;color: #fff;float:left;margin-left: 0.625rem;}

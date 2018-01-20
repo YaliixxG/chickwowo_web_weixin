@@ -1,0 +1,19 @@
+body{background: #ebebeb;}
+.header .arrow_l {display:block;width:0.45rem;height:0.9rem;background: url(../images/person/person_1/arrow_left.png) no-repeat;background-size: 0.45rem 0.9rem;float: left;}
+.header .profile_title{font-size: 0.8rem;font-weight: normal;float: left;margin-left:6.05rem;}
+
+
+.content .area{width: 18.75rem;height: 20rem;}
+
+.content .area .ts_form{width: 17.75rem;height: 19rem;padding:0.5rem;}
+
+.area .ts_1{width: 100%;height: 50%;font-size: 0.8rem;}
+.area .ts_1{margin-bottom: 0.5rem;}
+.area .ts_2 #ts_small{font-size: 0.5rem;color: red;}
+.area .ts_3{width:98%;margin-top:1rem;border-radius: 0.5rem;font-size: 0.5rem;}
+
+.file{margin-top: 1rem;width: 8rem;height: 1.5rem;position: absolute;top: -0.8rem;left: 0;opacity: 0;}
+.file_m{display:block;width:8rem;height:1.5rem;background:#d3d0c6;position: relative;z-index: 3;font-size: 0.5rem;text-align: center;line-height: 1.5rem;}
+.fileerrorTip1,.showFileName1{font-size: 0.5rem;}
+
+.content .tx_btn{width: 17.75rem;height: 2.05rem;background: #ffda57;border: 0.025rem solid #ffda57;border-radius: 0.2rem;margin-top: 2.35rem;}

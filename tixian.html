@@ -31,30 +31,63 @@
                     <span>1299元</span>
                 </p>
             </div>
-            <div class="tixian_sq">
-                <h3 class="txje">提现金额</h3>
-                <span class="tx_num">1200</span>
-                <p class="tip">温馨提示：首次提现需达1元</p>
+            <form action="" method="get">
+                <div class="tixian_sq">
+                    <h3 class="txje">提现金额</h3>
+                    <input class="tx_num" type="text" value="1200">
+                    <p class="tip">温馨提示：首次提现需达1元</p>
 
-            </div>
-            <div class="tixian_sj">
-                <p class="tx_tel">手机号：
-                    <span>18597941105</span>
-                </p>
-                <button class="tx_btn">申请提现</button>
-            </div>
-
-
+                </div>
+                <div class="tixian_sj">
+                    <label class="tel"><span class="space">手机号:</span>
+                        <input class="tx_tel" type="number" value="15118645220">
+                    </label>
+                    <label class="tel blockitem">开户省：
+                        <select>
+                            <option value="">湖南省</option>
+                            <option value="">四川省</option>
+                            <option value="">广东省</option>
+                            <option value="">江西省</option>
+                        </select>
+                        &nbsp;开户市：
+                        <select>
+                            <option value="">长沙市</option>
+                            <option value="">武汉市</option>
+                            <option value="">成都市</option>
+                            <option value="">广州市</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="tixian_sj">
+                    <label class="tel">开户银行:
+                        <select class="bankL">
+                            <option value="">长沙银行</option>
+                            <option value="">建设银行</option>
+                            <option value="">交通银行</option>
+                            <option value="">华融湘江银行</option>
+                        </select>
+                    </label>
+                    <label class="tel blockitem">开户支行:
+                        <input class="tx_tel" type="text" value="">
+                    </label>
+                </div>
+                <div class="tixian_sj">
+                    <label class="tel">开户账号:
+                        <input class="tx_tel" type="number" value="">
+                    </label>
+                    <button class="tx_btn">申请提现</button>
+                </div>
+            </form>
         </div>
     </div>
- <script>
-  var to_tixian = document.getElementById('to_tixian');
-  to_tixian.addEventListener('touchstart', function (e) {
-    e.preventDefault();
-    window.history.back()
-}, false)
- </script>
-    
+    <script>
+        var to_tixian = document.getElementById('to_tixian');
+        to_tixian.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            window.history.back()
+        }, false)
+    </script>
+
 </body>
 
 </html>

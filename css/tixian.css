@@ -8,10 +8,14 @@ body{background: #ebebeb;}
 .tixian_top .tx_name{display:block;font-size: 0.9rem;margin-left: 4.15rem;margin-top: 0.55rem;}
 .tixian_top .tx_ed{font-size: 0.6rem;margin-left: 4.15rem;margin-bottom: 0.55rem;}
 
-.content .tixian_sq{width:18.25rem;height: 6.55rem;background:url(../images/person/person_1/tixian_list_bg.png) no-repeat;background-size:37.5rem 7.45rem;padding-top: 0.95rem; padding-left: 0.5rem;}
+.content .tixian_sq{width:18.25rem;height: 6.55rem;background:url(../images/person/person_1/tixian_list_bg.jpg) no-repeat;background-size:37.5rem 7.45rem;padding-top: 0.95rem; padding-left: 0.5rem;}
 .content .tixian_sq .txje{font-size: 0.7rem;font-weight: normal;}
-.content .tixian_sq .tx_num{display:block;font-size: 1.15rem;margin-left: 3.1rem;margin-top:0.65rem;}
+.content .tixian_sq .tx_num{display:block;font-size: 1.15rem;margin-left: 3.4rem;margin-top:0.65rem;}
 .content .tixian_sq .tip{font-size:0.7rem;color: #989898;margin: 1.95rem 0 0 0.5rem;;}
-.content .tixian_sj{width: 18.25rem;height: 6rem;background:url(../images/person/person_1/tixian_list_bg.png) no-repeat -18.75rem;background-size:37.5rem 7.45rem;padding-left: 0.5rem;padding-top: 1.5rem;}
-.content .tixian_sj .tx_tel{font-size: 0.8rem;}
+.content .tixian_sj{width: 18.25rem;height: 6rem;background:url(../images/person/person_1/tixian_list_bg.jpg) no-repeat -18.75rem;background-size:37.5rem 7.45rem;padding-left: 0.5rem;padding-top: 1.5rem;}
+.content .tixian_sj .tx_tel,.tel{font-size: 0.7rem;}
+.tx_num,.tx_tel,.bankL{width:8rem;}
 .content .tx_btn{width: 17.75rem;height: 2.05rem;background: #ffda57;border: 0.025rem solid #ffda57;border-radius: 0.2rem;margin-top: 2.35rem;}
+.space{letter-spacing: 0.17rem;}
+.blockitem{display: block;margin-top: 2.2rem;}
+
